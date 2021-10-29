@@ -63,6 +63,6 @@ class PostController extends Controller
      */
     public function delete($post)
     {
-        $this->post->delete();
+        $this->post->delete($post);
     }
 }
